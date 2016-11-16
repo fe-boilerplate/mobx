@@ -1,0 +1,48 @@
+{
+  "name": "react-mobx-react-router4-boilerplate",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.production.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mhaagens/react-mobx-react-router4-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/mhaagens/react-mobx-react-router4-boilerplate/issues"
+  },
+  "standard": {
+    "parser": "babel-eslint",
+    "global": [
+      "fetch",
+      "alert",
+      "it"
+    ],
+    "ignore": [
+      "bin/",
+      "lib/",
+      "mock/",
+      "example/dist/",
+      "node_modules/"
+    ]
+  },
+  "dependencies": {
+    "fe-reset": "^1.0.9",
+    "mobx": "^2.6.2",
+    "mobx-react": "^3.5.9",
+    "react": "^15.3.2",
+    "react-css-modules": "^4.0.3",
+    "react-dom": "^15.3.2",
+    "react-router": "^4.0.0-alpha.5"
+  },
+  "devDependencies": {
+    "mobx-react-devtools": "^4.2.9",
+    "babel-eslint": "^7.1.0",
+    "standard": "^8.5.0"
+  }
+}
